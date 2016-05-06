@@ -7,3 +7,5 @@ Data source: Lending Club loan data https://www.lendingclub.com/info/download-da
 Modelling ideas: 
 - Logistic regression
 - K Nearest Neighbours
+- Decision trees
+- Random forest
