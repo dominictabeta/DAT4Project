@@ -1,16 +1,16 @@
 digraph Tree {
 node [shape=box] ;
-0 [label="int_rate <= 15.5\ngini = 0.2539\nsamples = 32057\nvalue = [4784, 27273]"] ;
-1 [label="int_rate <= 11.76\ngini = 0.1723\nsamples = 21181\nvalue = [2017, 19164]"] ;
+0 [label="total_rec_prncp <= 2398.71\ngini = 0.2712\nsamples = 37216\nvalue = [6021, 31195]"] ;
+1 [label="loan_amnt <= 2387.5\ngini = 0.2346\nsamples = 6173\nvalue = [5335, 838]"] ;
 0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
-2 [label="gini = 0.1161\nsamples = 11296\nvalue = [699, 10597]"] ;
+2 [label="gini = 0.1979\nsamples = 943\nvalue = [105, 838]"] ;
 1 -> 2 ;
-3 [label="gini = 0.2311\nsamples = 9885\nvalue = [1318, 8567]"] ;
+3 [label="gini = 0.0\nsamples = 5230\nvalue = [5230, 0]"] ;
 1 -> 3 ;
-4 [label="int_rate <= 19.215\ngini = 0.3794\nsamples = 10876\nvalue = [2767, 8109]"] ;
+4 [label="last_pymnt_amnt <= 1362.155\ngini = 0.0432\nsamples = 31043\nvalue = [686, 30357]"] ;
 0 -> 4 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
-5 [label="gini = 0.3474\nsamples = 7524\nvalue = [1684, 5840]"] ;
+5 [label="gini = 0.3935\nsamples = 2488\nvalue = [670, 1818]"] ;
 4 -> 5 ;
-6 [label="gini = 0.4374\nsamples = 3352\nvalue = [1083, 2269]"] ;
+6 [label="gini = 0.0011\nsamples = 28555\nvalue = [16, 28539]"] ;
 4 -> 6 ;
 }
