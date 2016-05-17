@@ -1,16 +1,16 @@
 digraph Tree {
 node [shape=box] ;
-0 [label="int_rate <= 15.5\ngini = 0.2546\nsamples = 32057\nvalue = [4800, 27257]"] ;
-1 [label="int_rate <= 11.76\ngini = 0.1736\nsamples = 21207\nvalue = [2036, 19171]"] ;
+0 [label="int_rate <= 15.5\ngini = 0.2539\nsamples = 32057\nvalue = [4784, 27273]"] ;
+1 [label="int_rate <= 11.76\ngini = 0.1723\nsamples = 21181\nvalue = [2017, 19164]"] ;
 0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
-2 [label="gini = 0.1181\nsamples = 11326\nvalue = [714, 10612]"] ;
+2 [label="gini = 0.1161\nsamples = 11296\nvalue = [699, 10597]"] ;
 1 -> 2 ;
-3 [label="gini = 0.2318\nsamples = 9881\nvalue = [1322, 8559]"] ;
+3 [label="gini = 0.2311\nsamples = 9885\nvalue = [1318, 8567]"] ;
 1 -> 3 ;
-4 [label="int_rate <= 19.215\ngini = 0.3797\nsamples = 10850\nvalue = [2764, 8086]"] ;
+4 [label="int_rate <= 19.215\ngini = 0.3794\nsamples = 10876\nvalue = [2767, 8109]"] ;
 0 -> 4 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
-5 [label="gini = 0.3475\nsamples = 7530\nvalue = [1686, 5844]"] ;
+5 [label="gini = 0.3474\nsamples = 7524\nvalue = [1684, 5840]"] ;
 4 -> 5 ;
-6 [label="gini = 0.4385\nsamples = 3320\nvalue = [1078, 2242]"] ;
+6 [label="gini = 0.4374\nsamples = 3352\nvalue = [1083, 2269]"] ;
 4 -> 6 ;
 }
